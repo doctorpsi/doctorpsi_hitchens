@@ -41,7 +41,7 @@ Here are some classic texts on the subject for your ready reference:
 *Note:* The study of membranes is a relatively new field and came into the scene only in the 80s. Plischke & Bergersen seems to be the only textbook which talks about it. :notes:
 
 Time for a musical break. Enchanted by Strings . . .
-![](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
+![](https://www.youtube.com/watch?v=Ptk_1Dc2iPY?autoplay=1)
 
 With this we end the introductory episode. Move on to [Part 1](/2020/05/25/enchanted-by-strings-part-1.html) of the series next.
 Let the fun commence. :trident: 
