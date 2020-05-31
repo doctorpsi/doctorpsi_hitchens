@@ -43,7 +43,6 @@ Here are some classic texts on the subject for your ready reference:
 Time for a musical break. Enchanted by Strings . . .
 ![](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
 
-
 With this we end the introductory episode. Move on to [Part 1](/2020/05/25/enchanted-by-strings-part-1.html) of the series next.
 Let the fun commence. :trident: 
 
