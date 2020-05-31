@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Doctor Psi — LaTeX in Markdown</title>
+
+    <meta name="description" content="A simpleton who loves to share.">  
+
+    <link rel="stylesheet" href="https://doctorpsi.github.io/assets/css/main.css?1590957283473187363">
+
+    <link rel="apple-touch-icon" href="">
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]]}});</script>
+</head>
+  <body>
+
+    
+      <a href="#main" class="skip-navigation">
+        Skip to content
+      </a>
+    
+
+    
+  
+
+
+  <nav class="site-navigation" role="navigation">
+    <ul>
+      <li>
+        <a href="/">
+          Home
+        </a>
+      </li>
+    
+      <li>
+        
+          <a href="/about.html">
+            About
+          </a>
+        
+      </li>
+    
+    </ul>
+  </nav>
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
+
+  
+    <h1 class="post-title divided p-name" itemprop="name headline">
+      LaTeX in Markdown
+    </h1>
+  
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><script type="math/tex">\LaTeX</script> is an amazing language for typesetting beautiful looking documents. It’s especially  useful if you deal with a lot of math. Here’s an example:</p>
+
+<script type="math/tex; mode=display">\dot{v} = - \zeta v + \eta(t)</script>
+
+<h2 id="getting-started-with-markdown">Getting started with Markdown</h2>
+
+<p>Markdown is a nice tool to quickly write nicely formatted plaintext (without all the fuss).</p>
+
+<p>Let’s get started!</p>
+
+<p>It’s quite easy to format text in markdown: This is <strong>bold</strong>. And this is <em>italics</em>.</p>
+
+<blockquote>
+  <p>This is a blockquote.</p>
+
+  <p><em>“You can write some quotes here.”</em></p>
+</blockquote>
+
+<p>Now some grocery list. Comes in quite handy:</p>
+
+<ol>
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Guavas</li>
+</ol>
+
+<p>You can also have bullets. Great Scott!</p>
+
+<ul>
+  <li>One bullet</li>
+  <li>Two bullets</li>
+  <li>Three bullets</li>
+</ul>
+
+<p>Typing another equation . . .</p>
+
+<script type="math/tex; mode=display">\alpha+\beta+\gamma=0</script>
+
+<p>How about some <em>inline</em> math, like <script type="math/tex">F = m a</script> .</p>
+
+<p>Or would you like something fancy? See <a href="http://katex.org">KaTeX</a>:</p>
+
+<script type="math/tex; mode=display">\displaystyle \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }</script>
+
+<p><em>Note</em>: I’m using MathJax now with a Jekyll plugin.</p>
+
+<p>Here’s some <em>C</em> code. Indent text to get a codeblock:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>printf("%s\n","I'm a codeblock.");
+</code></pre></div></div>
+
+<p><em>Note</em>: Markdown (on it’s own) doesn’t support syntax highlighting.</p>
+
+<p>If you want nicely colored code, use “fenced” codeblocks:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">printf</span><span class="p">(</span><span class="s">"%s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="s">"I'm a codeblock."</span><span class="p">);</span>
+<span class="c1">// with syntax highlighting</span>
+</code></pre></div></div>
+
+<p>You can also do it the Jekyll way:</p>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c">    <span class="cm">/* Some ritualistic code*/</span>
+    <span class="cp">#include &lt;stdio.h&gt;
+</span>    <span class="cp">#include &lt;math.h&gt;
+</span>
+    <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"%s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="s">"Hello world!"</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="c1">//=&gt; prints 'Hello world!' to STDOUT.</span>
+ </code></pre></figure>
+
+<p>This is some text, followed by a footnote <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<p><em>TO BE UPDATED</em> . . .</p>
+
+<p>(As I learn More)</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Some <em>crazy</em> footnote, As You Like It. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+  <div class="post-meta">
+    
+    <time class="post-date dt-published" datetime="2020-05-18T00:00:00+05:30" itemprop="datePublished">May 18, 2020</time>
+  </div>
+
+  
+
+</article>
+
+
+    
+      <form method="get" id="search" action="https://duckduckgo.com/">
+  <input type="hidden" name="sites" value="https://doctorpsi.github.io">
+  <input type="hidden" name="k8" value="#222222">
+  <input type="hidden" name="k9" value="#dc4b3c">
+  <input type="hidden" name="kt" value="h">
+  <input type="text" id="search__input" name="q" placeholder="Search…" autocomplete="off">
+  <button type="submit" class="btn btn-bordered" tabindex="-1">Search</button>
+</form>
+    
+
+    
+
+
+  <nav class="site-navigation" role="navigation">
+    <ul>
+      <li>
+        <a href="/">
+          Home
+        </a>
+      </li>
+    
+      <li>
+        
+          <a href="/about.html">
+            About
+          </a>
+        
+      </li>
+    
+    </ul>
+  </nav>
+
+
+    
+      <aside class="site-credits">
+        <p>
+          <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
+        </p>
+      </aside>
+    
+
+  </body>
+</html>

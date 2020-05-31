@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Doctor Psi — Enchanted by Strings | Part 1</title>
+
+    <meta name="description" content="A simpleton who loves to share.">  
+
+    <link rel="stylesheet" href="https://doctorpsi.github.io/assets/css/main.css?1590957283473187363">
+
+    <link rel="apple-touch-icon" href="">
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]]}});</script>
+</head>
+  <body>
+
+    
+      <a href="#main" class="skip-navigation">
+        Skip to content
+      </a>
+    
+
+    
+  
+
+
+  <nav class="site-navigation" role="navigation">
+    <ul>
+      <li>
+        <a href="/">
+          Home
+        </a>
+      </li>
+    
+      <li>
+        
+          <a href="/about.html">
+            About
+          </a>
+        
+      </li>
+    
+    </ul>
+  </nav>
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
+
+  
+    <h1 class="post-title divided p-name" itemprop="name headline">
+      Enchanted by Strings | Part 1
+    </h1>
+  
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p><strong>TL;DR</strong>: This series consists of my personal notes on a beautiful chapter on <em>polymers</em> and <em>membranes</em> that I found amusing. The contents of this blog are directly taken from here. Please refer to the original text of <em>Equilibrium Statistical Physics</em> by Plischke &amp; Bergersen for more details. If you are afraid of math and scary looking equations, then this post and the others are not for you. The material covered is pretty elementary though, suitable for an ambitious upper undergraduate or a graduate (presumably in Physics).</p>
+
+  <p>In this episode, we discuss the basic aspects of the statistical mechanics of flexible linear polymers.</p>
+</blockquote>
+
+<p>As promised in our <a href="/2020/05/23/enchanted-by-strings-part-0.html">last episode</a>, we will now discuss linear polymers, which is the simplest architecture or topology we can think of. In what follows, we will treat polymers to be simply long flexble chains. Imagine a really long string or a spaghetti strand. We will ignore all the microscopic details as mentioned before. Plischke &amp; Bergersen give a quick run through the basic chemistry of the flexibility mechanism right at the beginning. We will, however, skip this portion and jump straight to the interesting part. The reader is strongly encouraged to refer to the original text.</p>
+
+<p>Now to talk about flexibility, it is fairly intuitive that as you go along the chain there will be a rapid loss of “memory”. What we mean by memory will be clear in a second. There is a peculiar length scale <script type="math/tex">l</script> over which the bond orientations become uncorrelated, known as the <em>persistence length</em>. It is an important feature which gives flexible polymers their universal structural properties. This length depends on microscopic details and is different for various kinds of polymers. Any polymer having its persistence length much smaller than the contour length, <em>i.e.</em>, <script type="math/tex">l \ll Na</script> ( <script type="math/tex">a</script> being the bond length) should have physical properties depending <em>universally</em> on <script type="math/tex">Na/l</script>. This is true because one can always think in terms of beads or monomers of size <script type="math/tex">l</script> instead of actual atoms <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. Chain segments smaller than the persistence length are practically straight (correlations “persist”). On the other hand, if we consider lengths greater than <script type="math/tex">l</script>, we see that the correlations now vanish entirely allowing the chain to freely flex or bend. The polymer chain can then be treated as a long flexible mass of <script type="math/tex">Na/l</script> links, with all its global properties depending only on this particular number (“universality”).</p>
+
+<p>Interestingly, the highly disordered bond orientations make the polymer configuration close in many ways to a <em>biased random walk</em>. For flexible polymers, we will show that the statistical mechanics of these systems is nothing but a maximization of the entropy of a random walk to a first approximation. However, this deep connection or rather analogy does not make the polymer problem any simpler. In fact, it is far more challenging than the familiar random walk problem as the polymer chain can never cross itself. The atoms on the chain have hard core repulsion which prevent them from occupying the same region in space. So we have what is called a <em>self-avoiding walk</em>, which is not so easy to deal with. The chain expands (or swells) in a nontrivial manner at least for dimensions <script type="math/tex">% <![CDATA[
+d < 4 %]]></script>, which is the <em>upper critical dimension</em> <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> for our problem at hand. We will talk more about this concept later since it plays an important role in the study of critical phenomena.</p>
+
+<p>Now the appearance of an upper critical dimension hints at something really deep: the polymer problem is in a sense a critical phenomenon problem. We shall see soon that this is certainly true. It is this duality which allows us to cleverly map the former onto the latter, and hence take advantage of the huge wealth of information that is known about critical phenomena (along with its rich machinery <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>). It should be noted that this hardcore (or <em>excluded volume</em>) interaction, although short ranged in <script type="math/tex">d</script>-dimensional space is <em>long ranged</em> if we consider the distance along the chain. Monomers far apart along the chain can interact strongly if the chain folds back unto itself. This feature makes our polymer problem a highly nontrivial one.</p>
+
+<p>In the next section, we begin our main discussion of the statistical mechanics of polymers by taking the simplest model, <em>viz.</em> the “freely jointed chain”.</p>
+
+<h2 id="the-freely-jointed-chain">The freely jointed chain</h2>
+
+<p><em>COMING SOON</em> . . .<img class="emoji" title=":trident:" alt=":trident:" raw="🔱" src="https://github.githubassets.com/images/icons/emoji/unicode/1f531.png" style="vertical-align: middle;             max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">           </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This is the gist of <em>coarse-graining</em> we talked about earlier. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:2">
+      <p>See any text on phase transitions and critical phenomena for this. <a href="#fnref:2" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:3">
+      <p>The rich mathematical language of field theory and the renormalization group. <a href="#fnref:3" class="reversefootnote">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+  <div class="post-meta">
+    
+    <time class="post-date dt-published" datetime="2020-05-25T00:00:00+05:30" itemprop="datePublished">May 25, 2020</time>
+  </div>
+
+  
+
+</article>
+
+
+    
+      <form method="get" id="search" action="https://duckduckgo.com/">
+  <input type="hidden" name="sites" value="https://doctorpsi.github.io">
+  <input type="hidden" name="k8" value="#222222">
+  <input type="hidden" name="k9" value="#dc4b3c">
+  <input type="hidden" name="kt" value="h">
+  <input type="text" id="search__input" name="q" placeholder="Search…" autocomplete="off">
+  <button type="submit" class="btn btn-bordered" tabindex="-1">Search</button>
+</form>
+    
+
+    
+
+
+  <nav class="site-navigation" role="navigation">
+    <ul>
+      <li>
+        <a href="/">
+          Home
+        </a>
+      </li>
+    
+      <li>
+        
+          <a href="/about.html">
+            About
+          </a>
+        
+      </li>
+    
+    </ul>
+  </nav>
+
+
+    
+      <aside class="site-credits">
+        <p>
+          <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
+        </p>
+      </aside>
+    
+
+  </body>
+</html>
