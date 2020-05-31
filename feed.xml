@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://doctorpsi.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://doctorpsi.github.io/" rel="alternate" type="text/html" /><updated>2020-06-01T02:23:27+05:30</updated><id>https://doctorpsi.github.io/feed.xml</id><title type="html">Doctor Psi</title><subtitle>A simpleton who loves to share.</subtitle><entry><title type="html">Enchanted by Strings | Part 1</title><link href="https://doctorpsi.github.io/2020/05/25/enchanted-by-strings-part-1.html" rel="alternate" type="text/html" title="Enchanted by Strings | Part 1" /><published>2020-05-25T00:00:00+05:30</published><updated>2020-05-25T00:00:00+05:30</updated><id>https://doctorpsi.github.io/2020/05/25/enchanted-by-strings-part-1</id><content type="html" xml:base="https://doctorpsi.github.io/2020/05/25/enchanted-by-strings-part-1.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://doctorpsi.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://doctorpsi.github.io/" rel="alternate" type="text/html" /><updated>2020-06-01T04:22:02+05:30</updated><id>https://doctorpsi.github.io/feed.xml</id><title type="html">Doctor Psi</title><subtitle>A simpleton who loves to share.</subtitle><entry><title type="html">Enchanted by Strings | Part 1</title><link href="https://doctorpsi.github.io/2020/05/25/enchanted-by-strings-part-1.html" rel="alternate" type="text/html" title="Enchanted by Strings | Part 1" /><published>2020-05-25T00:00:00+05:30</published><updated>2020-05-25T00:00:00+05:30</updated><id>https://doctorpsi.github.io/2020/05/25/enchanted-by-strings-part-1</id><content type="html" xml:base="https://doctorpsi.github.io/2020/05/25/enchanted-by-strings-part-1.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: This series consists of my personal notes on a beautiful chapter on &lt;em&gt;polymers&lt;/em&gt; and &lt;em&gt;membranes&lt;/em&gt; that I found amusing. The contents of this blog are directly taken from here. Please refer to the original text of &lt;em&gt;Equilibrium Statistical Physics&lt;/em&gt; by Plischke &amp;amp; Bergersen for more details. If you are afraid of math and scary looking equations, then this post and the others are not for you. The material covered is pretty elementary though, suitable for an ambitious upper undergraduate or a graduate (presumably in Physics).&lt;/p&gt;
 
   &lt;p&gt;In this episode, we discuss the basic aspects of the statistical mechanics of flexible linear polymers.&lt;/p&gt;
@@ -71,8 +71,8 @@ d &lt; 4 %]]&gt;&lt;/script&gt;, which is the &lt;em&gt;upper critical dimension
 
 &lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; The study of membranes is a relatively new field and came into the scene only in the 80s. Plischke &amp;amp; Bergersen seems to be the only textbook which talks about it. :notes:&lt;/p&gt;
 
-&lt;p&gt;Time for a musical break. Enchanted by Strings . . .
-&lt;img src=&quot;https://www.youtube.com/watch?v=Ptk_1Dc2iPY&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Time for a musical break. Enchanted by Strings . . .&lt;/p&gt;
+&lt;iframe class=&quot;video&quot; src=&quot;https://www.youtube.com/embed/Ptk_1Dc2iPY&quot; title=&quot;&quot; width=&quot;600&quot; height=&quot;400&quot; style=&quot;&quot; allow=&quot;autoplay; encrypted-media&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;          &lt;/iframe&gt;
 
 &lt;p&gt;With this we end the introductory episode. Move on to &lt;a href=&quot;/2020/05/25/enchanted-by-strings-part-1.html&quot;&gt;Part 1&lt;/a&gt; of the series next.
 Let the fun commence. :trident:&lt;/p&gt;
@@ -133,7 +133,7 @@ Let the fun commence. :trident:&lt;/p&gt;
 
 &lt;p&gt;Here’s some &lt;em&gt;C&lt;/em&gt; code. Indent text to get a codeblock:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;printf(&quot;%s\n&quot;,&quot;I'm a codeblock.&quot;);
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;printf(&quot;%s\n&quot;,&quot;I'm a codeblock.&quot;);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: Markdown (on it’s own) doesn’t support syntax highlighting.&lt;/p&gt;
