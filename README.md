@@ -1,2 +1,2 @@
 # doctorpsi.github.io
-Personal Blog
+Personal blog | Nitish Xetri
